@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/style/about.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
-<header>
-    <a href="https://todo.microsoft.com/tasks/">TODO website</a>
+<header class="header"> 
+    <img style="height: 3cm; width: 3cm; margin-left: 0cm; position: relative;" src="img/yodosympol.jpg" alt="todosymbol">
+    <a class="a1" style="text-align: center;" href="/index.html">Home</a>
+    <a class="a2" style="text-align: center;" href="/about.html">About us</a>
+    <a class="a3" style="text-align: center;" href="https://todo.microsoft.com/tasks/">TODO website</a>
+    
 </header>
 
 <body>
     <main>
-        <div>
-            <img src="img/R.png" alt="personal photo">
-       <p>name: mo'men alrejjal</p>
-       <p>description: software developer(junior)</p>
+        
+            <img  class="img" src="img/R.png" alt="personal photo">
+       <div style="border:1px solid black;">
+            <p style="margin-left: 8cm;">name: mo'men alrejjal</p>
+       <p style="margin-left: 8cm;">description: software developer(junior)</p>
 
         </div>
         <div>
 
-        <form>
-   <label for="in1">name</label><br>       
-<input type="text" id="in1" name="in1"><br>
-<label for="in2">email</label><br>
-<input type="text" id="in2" name="in2"><br>
-<label for="in3">message</label><br>
-<input type="text" id="in3" name="in3"><br>
+        <form style="margin-left: 20cm; margin-top: 3cm; margin-bottom: 3cm;">
+   <label for="in1">name         </label>       
+<input type="text" id="in1" name="in1"><br><br>
+<label for="in2">email       </label>
+<input type="text" id="in2" name="in2"><br><br>
+<label for="in3">message       </label>
+<input type="text" id="in3" name="in3"><br><br>
 
 <input type="button" value="submit"><br>
 </form>
@@ -36,8 +42,8 @@
     </main>
 </body>
 
-<footer>
-    <p>&copy; 2022 TODOlist.com</p>
+<footer style="background-color: gray; height: 2cm; text-align: center;" >
+    <p style="text-align: center;">&copy; 2022 TODOlist.com</p>
 </footer>
 
 </html>

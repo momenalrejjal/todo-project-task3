@@ -1,0 +1,26 @@
+.header{
+    
+    height: 5cm;
+    background-color: grey;
+    margin-left: 0cm;
+}
+.a1{text-align: center;
+    margin-top: 1cm;
+    margin-left: 10cm;}
+    .a2{text-align: center;
+    margin-top: 1cm;
+    margin-left: 11cm;}
+    .a3{
+        text-align: center;
+        margin-top: 1cm;
+        margin-left: 19cm;
+        
+    }
+    .img{
+        margin-left: 5cm;
+        margin-top: 2cm;
+        height: 5cm;
+        width: 4cm;
+        border-radius: 3cm;
+    }
+    
