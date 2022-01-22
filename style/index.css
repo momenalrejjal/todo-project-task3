@@ -1,0 +1,59 @@
+.header{
+    margin-left: 0cm;
+    height: 5cm;
+    background-color: grey;
+}
+.a1{text-align: center;
+margin-top: 1cm;
+margin-left: 10cm;}
+.a2{text-align: center;
+margin-top: 1cm;
+margin-left: 11cm;}
+.a3{
+    text-align: center;
+    margin-top: 1cm;
+    margin-left: 19cm;
+    
+}
+.img{
+    margin-left: 0cm;
+    position: relative;
+    height: 3cm;
+    width: 3cm;
+}
+.table{
+    margin-left: 10cm;
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+    text-align: center;
+    border: 1cm;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 15cm;
+    height: 7cm;
+}
+.th{
+    
+    text-align: center;
+    border: 1cm;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(81, 108, 184);
+}
+.td{
+    
+    text-align: center;
+    border: 1cm;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+.footer{
+  background-color: grey;
+  text-align: center;
+  height: 3cm;
+  margin-bottom: 2cm;
+}
+.p{
+    margin-top: 2cm;
+}

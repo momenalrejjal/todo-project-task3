@@ -2,41 +2,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/style/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<header>
-<a href="https://todo.microsoft.com/tasks/">TODO website</a>
+<header class="header">
+    <img class="img" src="img/yodosympol.jpg" alt="todosymbol">
+    <a class="a2" href="/index.html">Home</a>
+    <a class="a1" href="/about.html">About us</a>
+<a class="a3" href="https://todo.microsoft.com/tasks/">TODO website</a>
+
 </header>
 
 <body>
     <main>
-        <table>
+        <table class="table">
             <tr>
-            <th>tasks</th>
-            <th>status</th>
+            <th class="th">tasks</th>
+            <th class="th">status</th>
             </tr>
             <tr>
-                <td>task1</td>
-                <td>done</td>
+                <td class="td"><input type="checkbox" id="one" name="task1" value="learning html">
+                    <label for="one">learning html</label></td>
+                <td class="td" style="background-color: green;">done</td>
             </tr>
             <tr>
-                <td>task2</td>
-                <td>done</td>
+                <td class="td"><input type="checkbox" id="two" name="task2" value="learning css">
+                    <label for="two">learning css</label></td>
+                <td class="td" style="background-color: green;">done</td>
             </tr>
             <tr>
-                <td>task3</td>
-                <td>done</td>
+                <td> <input type="checkbox" id="three" name="task3" value="learning js">
+                    <label for="three">learning js</label></td>
+                <td class="td" style="background-color: red;">done</td>
             </tr>
         </table>
     </main>
     
 </body>
 
-<footer>
-<p>&copy; 2022 TODOlist.com</p>
+<footer class="footer">
+<p class="p">&copy; 2022 TODOlist.com</p>
 </footer>
 
 </html>
