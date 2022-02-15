@@ -1,18 +1,20 @@
-
+'use strict';
 var username = prompt("please enter your name ");
 var gender = prompt("please enter your gender (male or female) without space");
-
+checkgendercorrect(gender);
+checkcomfirm2(gender);
 var age = prompt("how old are you ?");
-
+checkage(age);
 var confirm = prompt("do you want to skip the welcoming message");
 
 var qus1 = prompt("do you have asister?");
-
+function checkqus1(qus1);
 var qus2 = prompt("do you have a brother?");
-
+function qus2 (qus2);
 var qus3 = prompt("do you enjoy drinking coffee?");
+function qus3(qus3);
 
-
+function answers(qus1, qus2 ,qus3);
 
 function checkgendercorrect(gender) {
    if (gender.toLowerCase() !== "male" && gender.toLowerCase() !== "female") {
@@ -67,8 +69,7 @@ answersArr.reverse();
 return console.log(answersArr);
 }
 
-
-function checkgender(gender){
+function checkgender(){
 if (gender === "male") {
    alert(`welcome Mr ${username}`);
 } break;
@@ -77,6 +78,6 @@ if (gender === "female") {
 
 }
 else { alert(`welcome`); }
-}
 
+}
 
